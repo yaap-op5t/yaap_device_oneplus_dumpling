@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common YAAP stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
+TARGET_BUILD_GAPPS := true
 
 # Bootanimation
 scr_resolution := 1080
